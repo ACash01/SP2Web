@@ -49,6 +49,7 @@ header {
 
 .Hnav {
     background-color: rgb(79,56,44);
+    text-decorations: none;
     display: flex;
     align-items: center;
     position: fixed;
