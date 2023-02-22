@@ -1,0 +1,7 @@
+#error {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px black, 0 0 10px black;
+    z-index: 1;
+    font-size: 5vh;
+}

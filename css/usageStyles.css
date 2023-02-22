@@ -1,0 +1,37 @@
+#setUp {
+    display: flex;
+    align-items: center;
+}
+
+#setUp img {
+    object-fit: cover;
+    margin: 0 5vw;
+    width: fit-content;
+    max-height: 60vh;
+}
+
+#setUp .text-con1 {
+    color: #FFFFFF;
+    flex-direction: column;
+    margin: 0 10vw;
+    z-index: 1;
+}
+
+
+.homeUse {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    background-color: rgb(242, 171, 60);
+}
+
+.homeUse .text-con2 {
+    margin: 0 10vw;
+}
+
+.homeUse img {
+    object-fit: cover;
+    margin: 0 5vw;
+    width: 50vw;
+    max-height: 60vh;
+}
