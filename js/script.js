@@ -1,6 +1,7 @@
 const logo = document.querySelector(".logo");
 const header = document.querySelector(".Hnav")
 window.addEventListener("scroll",changeHead);
+logo.addEventListener("click",returnHome);
 let iniView = 0
 
 function changeHead() {
@@ -15,4 +16,7 @@ function changeHead() {
     }
 
     iniView = window.scrollY
+}
+
+function returnHome() {
 }
