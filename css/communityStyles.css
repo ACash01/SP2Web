@@ -6,10 +6,10 @@
    transition: transform 1s ease: ;
  }
  
- .arrowCon .arrow1:hover{
+.arrow1:hover{
     transform: rotate(-90deg);
  }
  
- .arrowCon .arrow2:hover{
+.arrow2:hover{
     transform: rotate(90deg);
  }
