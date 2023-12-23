@@ -1,15 +1,7 @@
-.arrow{
-   clip-path: polygon(40% 3%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 97%, 0% 50%);
-   background-color: blue;
-   width: 100px;
-   height: 100px;
-   transition: transform 1s ease;
- }
- 
-.arrow1:hover{
-    transform: rotate(-90deg);
- }
- 
-.arrow2:hover{
-    transform: rotate(90deg);
- }
+#error {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px black, 0 0 10px black;
+    z-index: 1;
+    font-size: 5vh;
+}
